@@ -1,0 +1,51 @@
+a,h1, h2, h3 {
+    color: hsl(267, 94%, 76%);
+    font-family: 'roboto', sans-serif;
+}
+
+h3 {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+}
+.article-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .article-box {
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        display: inline-block;
+        width: auto;
+        transition: all 0.25s ease;
+        background-color: 	rgba(59, 59, 59, 0.177);
+        border-radius: 2px;
+        border: 1px solid black;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .right {
+            padding: 15px;
+            color: white;
+            //margin-top: -20px;
+
+            .meta {
+                margin-top: -15px;
+                margin-bottom: 20px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .article-list {
+        grid-template-columns: 100%;
+    }
+}
