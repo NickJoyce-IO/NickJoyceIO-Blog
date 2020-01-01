@@ -1,7 +1,7 @@
 
 
 const config = {
-  siteTitle: "NICKJOYCEIO | Blog", // Site title.
+  siteTitle: "NICKJOYCE-IO | Blog", // Site title.
   siteTitleShort: "NickJoyce-IO Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "NickJoyce-IO Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
@@ -14,11 +14,11 @@ const config = {
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Nick Joyce", // Username to display in the author segment.
-  userEmail: "youremail@gmail.com", // Email used for RSS feed's author segment
+  userEmail: "nickjoyceio7@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "nickjoyceio", // Optionally renders "Follow Me" in the Bio segment.
-  userGitHub: "NickJoyce-io", // Optionally renders "Follow Me" in the Bio segment.
+  userGitHub: "NickJoyce-IO", // Optionally renders "Follow Me" in the Bio segment.
   userLocation: "Here and there!", // User location to display in the author segment.
-  userAvatar: "https://i.ibb.co/WPz9CNk/avatar.jpg", // User avatar to display in the author segment.
+  userAvatar: "", // User avatar to display in the author segment.
   userDescription:
     "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment. 
   copyright: "Copyright © 2020. All rights reserved.", // Copyright string for the footer of the website and RSS feed.
